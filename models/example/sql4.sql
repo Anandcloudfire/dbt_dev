@@ -4,13 +4,13 @@
 
 with source_data as (
 
-    select 1 as id, rajesh as name
+    select drajesh as name
     union all
-	select 2 as id, anand as name
+	select anand as name
 	union all
-	select 3 as id, pradeepa as name
+	select pradeepa as name
 	union all
-    select null as id, null as name
+    select null as name
 )
 select *
 from source_data
